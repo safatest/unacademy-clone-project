@@ -1,0 +1,132 @@
+.w_container{
+    width: 1366px;
+    height: 615px;
+    position: relative;
+    margin: auto;
+    
+}
+
+@media only screen and (min-width: 47.95em){
+.w_container {
+    background: linear-gradient( 90.01deg,#fcfcfc 34.99%,
+                rgba(252,252,252,0.0660948) 
+                65.1%,rgba(252,252,252,0) 99.99% );
+}
+}
+
+@media only screen and (min-width: 70.95em){
+.image_container {
+    width: 1366px;
+    height: 591px;
+    margin: auto;
+    object-fit: contain;
+    transform: translateX(0px);
+    opacity: 1;
+    transition: transform 800ms ease-out 0s, opacity 800ms ease-out 0s;
+}
+}
+
+img{
+    border-style: none;
+}
+
+.right{
+    position: absolute;
+    width: 120px;
+    right: 0px;
+    height: 615px;
+    top: 0px;
+    transform: translateX(0px);
+    opacity: 1;
+    transition: transform 800ms ease-out 0s, opacity 800ms ease-out 0s;
+    background: linear-gradient( 270deg,#FCFCFC 0%,rgba(252,252,252,0.5) 51.04%,rgba(252,252,252,0) 100% );
+}
+
+.text_container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1136px;
+}
+
+.animation_container{
+    display: flex;
+    margin-top: 236px;
+}
+
+.slide_in{
+    text-align: left;
+}
+
+.slider_container{    
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    transform: translateX(0px);
+    opacity: 1;
+    will-change: transform;
+    overflow: hidden;
+    transition: transform 800ms ease-in-out 0ms, opacity 800ms ease-in-out;
+
+}
+
+.main_text{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 120%;
+    color: #3C4852;
+}
+
+.cards_wrapper{
+    margin-top: 72px;
+    opacity: 1;
+    transition: opacity 200ms ease-out 500ms;
+}
+
+.styled_anchor{
+    text-decoration: none;
+    color: #3C4852;
+    line-height: 150%;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.popular_goals_wrapper{
+    position: relative;
+    display: flex;
+    margin-top: 24px;
+}
+.sub_header{
+    color: var(--color-text-secondary);
+    margin: 0px;
+    margin-right: 24px;
+    font-size: 16px;
+    line-height: 150%;
+    color:#7A8B94
+}
+
+.popular_goals_container{
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0px;
+    color: #08bd80;
+    margin-right: 24px;
+    cursor: pointer;
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
